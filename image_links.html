@@ -63,14 +63,36 @@
     <section id="home">
         <h2>Home</h2>
         <p>Welcome Home. Here's what we think when one mentions technology:</p>
-        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommunity.thriveglobal.com%2Fif-you-think-technology-is-not-taking-over-everything-we-do-then-read-this%2F&psig=AOvVaw2AEMCQzSUprZQHScpQmRMm&ust=1710053976056000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKD-k_rN5oQDFQAAAAAdAAAAABAF"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommunity.thriveglobal.com%2Fif-you-think-technology-is-not-taking-over-everything-we-do-then-read-this%2F&psig=AOvVaw2AEMCQzSUprZQHScpQmRMm&ust=1710053976056000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKD-k_rN5oQDFQAAAAAdAAAAABAF" alt="Technology Image"></a>
+        <a href="https://community.thriveglobal.com/wp-content/uploads/2018/01/techandsuccess.jpg"><img src="https://community.thriveglobal.com/wp-content/uploads/2018/01/techandsuccess.jpg" alt="Technology"></a>
     </section>
     <section id="gallery">
         <h2>Gallery</h2>
+        <!--Creating a grid display -->
+        <style>
+            /* Style for the grid container */
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid columns */
+                grid-gap: 20px; /* Gap between grid items */
+                padding: 20px;
+            }
+    
+            /* Style for the grid items (images) */
+            .grid-item img {
+                width: 100%; /* Make images fill the grid item */
+                height: auto; /* Maintain aspect ratio */
+                border-radius: 5px; /* Optional: Add rounded corners */
+            }
+        </style>
         <div class="gallery">
-            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffurtherafrica.com%2F2023%2F01%2F28%2Fvictoria-falls-devils-pool-thrilling-or-dangerous%2F&psig=AOvVaw2gOLLHt_V_fTEYRJdxkcQC&ust=1710054128234000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjt7MLO5oQDFQAAAAAdAAAAABA2"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffurtherafrica.com%2F2023%2F01%2F28%2Fvictoria-falls-devils-pool-thrilling-or-dangerous%2F&psig=AOvVaw2gOLLHt_V_fTEYRJdxkcQC&ust=1710054128234000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjt7MLO5oQDFQAAAAAdAAAAABA2" alt="Nature Image 1"></a>
-            <a href="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG"><img src="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG" alt="Nature Image 2"></a>
-            <a href="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg"><img src="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg" alt="Nature Image 3"></a>
+            <div class="grid-container">
+                <!-- Grid items (images) -->
+                <div class="grid-item"><a href="https://i0.wp.com/furtherafrica.com/content-files/uploads/2023/01/devilspool.jpg?resize=600%2C300&ssl=1"><img src="https://i0.wp.com/furtherafrica.com/content-files/uploads/2023/01/devilspool.jpg?resize=600%2C300&ssl=1" alt="Victoria Falls"></a></div>
+                <div class="grid-item"><a href="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG"><img src="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG" alt="African Savanna"></a></div>
+                <div class="grid-item"><a href="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg"><img src="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg" alt="The Deep Blue"></a></div>
+                <!-- Add more grid items as needed -->
+            </div>      
+            
         </div>
     </section>
     <section id="menu">
@@ -81,8 +103,6 @@
             <li><a href="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg">Spaghetti</a></li>
         </ul>
     </section>
-    <footer>
-        <p>&copy; 2024 Image Links</p>
-    </footer>
+   
 </body>
 </html>
