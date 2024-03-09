@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Image Linking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome Home. Here's what we think when one mentions technology:</p>
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommunity.thriveglobal.com%2Fif-you-think-technology-is-not-taking-over-everything-we-do-then-read-this%2F&psig=AOvVaw2AEMCQzSUprZQHScpQmRMm&ust=1710053976056000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKD-k_rN5oQDFQAAAAAdAAAAABAF"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommunity.thriveglobal.com%2Fif-you-think-technology-is-not-taking-over-everything-we-do-then-read-this%2F&psig=AOvVaw2AEMCQzSUprZQHScpQmRMm&ust=1710053976056000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKD-k_rN5oQDFQAAAAAdAAAAABAF" alt="Technology Image"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffurtherafrica.com%2F2023%2F01%2F28%2Fvictoria-falls-devils-pool-thrilling-or-dangerous%2F&psig=AOvVaw2gOLLHt_V_fTEYRJdxkcQC&ust=1710054128234000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjt7MLO5oQDFQAAAAAdAAAAABA2"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffurtherafrica.com%2F2023%2F01%2F28%2Fvictoria-falls-devils-pool-thrilling-or-dangerous%2F&psig=AOvVaw2gOLLHt_V_fTEYRJdxkcQC&ust=1710054128234000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNjt7MLO5oQDFQAAAAAdAAAAABA2" alt="Nature Image 1"></a>
+            <a href="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG"><img src="https://images.squarespace-cdn.com/content/v1/5a421a4b51a58404bc2f4a0e/1514820152706-483580J9UUYG1SBHFYVX/mara.PNG" alt="Nature Image 2"></a>
+            <a href="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg"><img src="https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg" alt="Nature Image 3"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://miro.medium.com/v2/resize:fit:1400/1*kKL99lmKgq5tRX2bjwQI5g.jpeg">Nyama Choma</a></li>
+            <li><a href="https://grub24s3.s3.eu-west-2.amazonaws.com/upload/1664468260-pizza-5179939_960_720.jpg">Pizza</a></li>
+            <li><a href="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg">Spaghetti</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
